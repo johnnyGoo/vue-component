@@ -13,16 +13,10 @@
 
 
     body, html {
-        width: 100%;
-        height: 100%;
-        padding: 0px;
-        margin: 0px;
-        overflow: hidden;
+
     }
     #app{
-        border: 10px;
-        height: 100%;
-        /*box-sizing: border-box;*/
+
     }
 </style>
 <body>
@@ -39,18 +33,13 @@
 <script>
     new Vue({
         el: '#app', data: {
-             width: 'auto',height:'auto'
-        }, mounted: function () {
+
+        },
+        mounted: function () {
 
         },
         methods:{
-            update:function (event) {
-                // this.$refs.fixdom.width=event.target.width+'px';
-                // this.$refs.fixdom.height=event.target.height+'px';
-                this.$refs.fixdom.update();
-            }
         },
-
         components: {
            {{ class }}: {{ class }}
         }

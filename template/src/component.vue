@@ -10,7 +10,7 @@
 <script>
     // 注册
     export default {
-        name: 'component',
+        name: '{{ name }}',
         // 声明 props
         props: {},
         data: function () {
