@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     libraryTarget: 'umd',
-    filename: 'component.js'
+    filename: '{{ name }}.js'
   },
 
   module: {

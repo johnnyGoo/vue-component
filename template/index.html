@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>VueFixDom</title>
+    <title>{{ name }}</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no">
@@ -27,15 +27,15 @@
 </style>
 <body>
 <div id="app">
-    <vue-fix-dom >
+    <{{name}} >
 
 
 
-    </vue-fix-dom>
+    </{{name}}>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script src="dist/component.js"></script>
+<script src="dist/{{ name }}.js"></script>
 <script>
     new Vue({
         el: '#app', data: {
@@ -52,7 +52,7 @@
         },
 
         components: {
-            VueFixDom: VueFixDom
+           {{ class }}: {{ class }}
         }
     })
 </script>

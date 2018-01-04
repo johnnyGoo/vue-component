@@ -1,9 +1,10 @@
 {
-  "name": "component",
-  "version":"0.0.1",
-  "description": "component desc",
-  "author": "johnnyGoo <157781745@qq.com>",
-  "main":"dist/component.js",
+  "name": "{{ name }}",
+  "description": "{{ description }}",
+  "version": "1.0.0",
+  "author": "{{ author }}",
+  "license": "{{ license }}",
+  "main":"dist/{{ name }}.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --port 9999",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
