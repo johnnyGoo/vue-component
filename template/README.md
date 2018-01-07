@@ -1,4 +1,6 @@
-###Usage
+# {{ name }}
+##### {{ description }}
+### Usage
 ```
 npm install {{ name }} --save
 import {{ class }} from '{{ name }}'
@@ -9,17 +11,17 @@ npm run build
 ```
 
 
-###props:
+### Props:
 ```
 
 
 ```
-###methods
+### Methods
 ```
 
 
 ```
-###properties
+### Properties
 ```
 
 ```
